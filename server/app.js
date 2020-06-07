@@ -4,8 +4,6 @@ const schema = require('./schema/schema.js');
 const mongoose = require('mongoose');
 const cors = require('cors');
 
-//test comment
-
 const port = 4000;
 const app = express();
 const username = process.env.USERNAME;
